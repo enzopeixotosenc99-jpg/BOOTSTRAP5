@@ -1,23 +1,23 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
+  
   <!-- Bootstrap CSS -->
-  <link
+  <link 
   rel="stylesheet"
   crossorigin="anonymous"
   href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
   >
- 
+  
   <!-- Bootstrap Icons -->
-  <link
-  rel="stylesheet"
+  <link 
+  rel="stylesheet" 
   href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
   >
- 
+  
   <title>Nexus Dev Shop | Hardware para Full Stack</title>
 
   <!-- Custom CSS -->
@@ -118,6 +118,269 @@
         </button>
       </div>
     </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="min-vh-100 d-flex align-items-center bg-dark py-5 border-top border-secondary">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-5">
+            <h6 class="text-info fw-bold text-uppercase ls-wide">Nossa História</h6>
+            <h2 class="display-4 fw-bold text-white mb-4">Inovação Tecnológica em Mato Grosso</h2>
+            <p class="lead text-secondary">
+              A Nexus Dev Shop nasceu em Cuiabá para equipar a nova geração de Devs Full Stack com o que há de melhor em infraestrutura.
+            </p>
+          </div>
+          <div class="col-lg-7">
+            <div class="row g-4 text-start">
+
+              <!-- Card Missão -->
+              <div class="col-md-6">
+                <div class="bg-black p-4 border border-secondary rounded-4 h-100 shadow-sm d-flex align-items-start gap-3">
+                  <div>
+                    <div class="d-flex justify-content-center align-items-center gap-3">
+                      <i class="bi bi-rocket-takeoff fs-1 text-info"></i>
+                      <h4 class="text-white">Missão</h4>
+                    </div>
+                    <p class="text-secondary small mb-0">
+                      Prover hardware de alta performance para impulsionar projetos de TI e educação tecnológica.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            <!-- Card Visão -->
+            <div class="col-md-6">
+              <div class="bg-black p-4 border border-secondary rounded-4 h-100 shadow-sm d-flex align-items-start gap-3">
+                <div>
+                  <div class="d-flex justify-content-center align-items-center gap-3">
+                    <i class="bi bi-eye fs-1 text-info"></i>
+                    <h4 class="text-white">Visão</h4>
+                  </div>
+                  <p class="text-secondary small mb-0">
+                    Tornar-se o maior hub de tecnologia e referência em harware especializado do Centro-Oeste.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Nossos Valores -->
+            <div class="col-12">
+              <div class="bg-black p-4 border border-secondary rounded-4 h-100 shadow-sm d-flex align-items-start gap-4">
+                <i class="bi bi-shield-check text-info display-5"></i>
+                <div>
+                  <h4 class="text-white mb-1">Nossos Valores</h4>
+                  <p class="text-secondary small mb-0">
+                    Transparência, suporte técnico real e compromisso com o sucesso do desenvolvedor.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Produtos -->
+    <section id="produto" class="min-vh-100 d-flex align-items-center bg-black py-5 border-top border-secondary">
+      <div class="container py-5">
+        <div class="text-center mb-5">
+          <h2 class="display-4 fw-bold text-white">Vitrine de Produtos</h2>
+          <p class="text-secondary">
+            Performance testada e aprovada para ambientes de desenvolvimento pesado.
+          </p>
+        </div>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+          <!-- Card Produto 1 -->
+          <div class="col text-start">
+            <div class="card bg-dark text-white h-100 border-secondary shadow-lg overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=800" 
+                class="card-img-top object-fit-cover"
+                style="height: 180px;" 
+                alt="Imagem do Notebook Dell Gamer"
+              >
+              <div class="card-body d-flex flex-column p-4">
+                <h5 class="fw-bold mb-2">
+                  Notebook Dell Gamer
+                </h5>
+                <p class="card-text text-secondary small flex-grow-1">
+                  Intel i7-12700H, 32GB RAM, 512GB SSD, RTX 3060 - Perfeito para desenvolvimento full stack e jogos casuais.
+                </p>
+                <div class="d-flex justify-content-between align-items-center border-top border-secondary pt-3 mt-auto">
+                  <span class="h5 fw-bold text-info mb-0">R$ 12.990,00</span>
+                  <button 
+                    class="btn btn-outline-info btn-sm rounded px-3 shadow-sm text-white" 
+                    data-bs-toggle="modal" 
+                    data-bs-target="#modalProd"
+                  >
+                    Ver Detalhes
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card Produto 2 -->
+          <div class="col text-start">
+            <div class="card bg-dark text-white h-100 border-secondary shadow-lg overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=800"
+                class="card-img-top object-fit-cover" style="height: 180px;" alt="Imagem do Macbook Pro M3">
+              <div class="card-body d-flex flex-column p-4">
+                <h5 class="fw-bold mb-2">
+                  Macbook Pro M3
+                </h5>
+                <p class="card-text text-secondary small flex-grow-1">
+                  Apple M3, 16GB RAM, 1TB SSD - A escolha definitva para desenvolvimento iOS e front-end em ReactJS
+                </p>
+                <div class="d-flex justify-content-between align-items-center border-top border-secondary pt-3 mt-auto">
+                  <span class="h5 fw-bold text-info mb-0">R$ 14.990,00</span>
+                  <button class="btn btn-outline-info btn-sm rounded px-3 shadow-sm text-white" data-bs-toggle="modal"
+                    data-bs-target="#modalProd">
+                    Ver Detalhes
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card Produto 3 -->
+          <div class="col text-start">
+            <div class="card bg-dark text-white h-100 border-secondary shadow-lg overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1675151638960-fc1513f8021e?q=80&w=800&"
+                class="card-img-top object-fit-cover" style="height: 180px;" alt="Imagem do Monitor Orion Prism-9">
+              <div class="card-body d-flex flex-column p-4">
+                <h5 class="fw-bold mb-2">
+                 Monitor Orion Prism-9 
+                </h5>
+                <p class="card-text text-secondary small flex-grow-1">
+                  43.5 polegadas com curvatura 800R, OLED-BioPix, 10K UHD+, 600Hz.
+                </p>
+                <div class="d-flex justify-content-between align-items-center border-top border-secondary pt-3 mt-auto">
+                  <span class="h5 fw-bold text-info mb-0">R$ 18.990,00</span>
+                  <button class="btn btn-outline-info btn-sm rounded px-3 shadow-sm text-white" data-bs-toggle="modal"
+                    data-bs-target="#modalProd">
+                    Ver Detalhes
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card Produto 4 -->
+          <div class="col text-start">
+            <div class="card bg-dark text-white h-100 border-secondary shadow-lg overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1770932588917-42c0ecd3f210?q=80&w=800&"
+                class="card-img-top object-fit-cover" style="height: 180px;" alt="Imagem da Placa de video 4090">
+              <div class="card-body d-flex flex-column p-4">
+                <h5 class="fw-bold mb-2">
+                  Placa de video 4090
+                </h5>
+                <p class="card-text text-secondary small flex-grow-1">
+                  16.384 núcleos CUDA, 24 GB GDDR6X (384-bit), Boost Clock 2.52 GHz, DLSS 3 e consumo de 450W.
+                </p>
+                <div class="d-flex justify-content-between align-items-center border-top border-secondary pt-3 mt-auto">
+                  <span class="h5 fw-bold text-info mb-0">R$ 3.500,00</span>
+                  <button class="btn btn-outline-info btn-sm rounded px-3 shadow-sm text-white" data-bs-toggle="modal"
+                    data-bs-target="#modalProd">
+                    Ver Detalhes
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card Produto 5 -->
+          <div class="col text-start">
+            <div class="card bg-dark text-white h-100 border-secondary shadow-lg overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1686705562930-4f3e46f620d8?q=80&w=800&"
+                class="card-img-top object-fit-cover" style="height: 180px;" alt="Imagem do SSD NVme 1TB Samsung 980 Pro">
+              <div class="card-body d-flex flex-column p-4">
+                <h5 class="fw-bold mb-2">
+                  SSD NVme 1TB Samsung 980 Pro
+                </h5>
+                <p class="card-text text-secondary small flex-grow-1">
+                 Velocidade de leitura de até 7.000 MB/s - O armazenamento ultrarrápido que acelera suas builds e transferências de dados.
+                </p>
+                <div class="d-flex justify-content-between align-items-center border-top border-secondary pt-3 mt-auto">
+                  <span class="h5 fw-bold text-info mb-0">R$ 1.990,00</span>
+                  <button class="btn btn-outline-info btn-sm rounded px-3 shadow-sm text-white" data-bs-toggle="modal"
+                    data-bs-target="#modalProd">
+                    Ver Detalhes
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card Produto 6 -->
+          <div class="col text-start">
+            <div class="card bg-dark text-white h-100 border-secondary shadow-lg overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1633315752119-3b965d22c614?q=80&w=800&"
+                class="card-img-top object-fit-cover" style="height: 180px;" alt="Imagem do Teclado Mecânico Gamer Corsair">
+              <div class="card-body d-flex flex-column p-4">
+                <h5 class="fw-bold mb-2">
+                  Teclado Mecânico Gamer Corsair K65 RGB Mini. 
+                </h5>
+                <p class="card-text text-secondary small flex-grow-1">
+                Modelo mecânico com formato 60%, switches CHERRY MX Red, conexão USB-C removível e tecnologia de hiperprocessamento AXON de 8.000Hz.
+                </p>
+                <div class="d-flex justify-content-between align-items-center border-top border-secondary pt-3 mt-auto">
+                  <span class="h5 fw-bold text-info mb-0">R$ 500,00</span>
+                  <button class="btn btn-outline-info btn-sm rounded px-3 shadow-sm text-white" data-bs-toggle="modal"
+                    data-bs-target="#modalProd">
+                    Ver Detalhes
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card Produto 7 -->
+          <div class="col text-start">
+            <div class="card bg-dark text-white h-100 border-secondary shadow-lg overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1632160872021-7e65d76ad849?q=80&w=800&"
+                class="card-img-top object-fit-cover" style="height: 180px;" alt="Imagem do Razer Viper Ultimate Cyberpunk 2077 Edition">
+              <div class="card-body d-flex flex-column p-4">
+                <h5 class="fw-bold mb-2">
+                  Razer Viper Ultimate Cyberpunk 2077 Edition. 
+                </h5>
+                <p class="card-text text-secondary small flex-grow-1">
+                O mouse possui um sensor óptico de 20.000 DPI com 99,6% de precisão de resolução, pesa apenas 74g, conta com 8 botões programáveis e utiliza a tecnologia sem fio HyperSpeed, que é 25% mais rápida que outras tecnologias wireless do mercado
+                </p>
+                <div class="d-flex justify-content-between align-items-center border-top border-secondary pt-3 mt-auto">
+                  <span class="h5 fw-bold text-info mb-0">R$ 2.000,00</span>
+                  <button class="btn btn-outline-info btn-sm rounded px-3 shadow-sm text-white" data-bs-toggle="modal"
+                    data-bs-target="#modalProd">
+                    Ver Detalhes
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card Produto 8 -->
+          <div class="col text-start">
+            <div class="card bg-dark text-white h-100 border-secondary shadow-lg overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1636487658834-26cd5ebb62fb?q=80&w=800&"
+                class="card-img-top object-fit-cover" style="height: 180px;" alt="Imagem do Razer BlackShark V2 X. ">
+              <div class="card-body d-flex flex-column p-4">
+                <h5 class="fw-bold mb-2">
+                  Razer BlackShark V2 X
+                </h5>
+                <p class="card-text text-secondary small flex-grow-1">
+                  Drivers de 50mm Razer TriForce (revestidos em titânio no V2), som Surround 7.1 (ou THX Spatial Audio), microfone cardioide HyperClear e design leve com isolamento passivo avançado.
+                </p>
+                <div class="d-flex justify-content-between align-items-center border-top border-secondary pt-3 mt-auto">
+                  <span class="h5 fw-bold text-info mb-0">R$ 600,00</span>
+                  <button class="btn btn-outline-info btn-sm rounded px-3 shadow-sm text-white" data-bs-toggle="modal"
+                    data-bs-target="#modalProd">
+                    Ver Detalhes
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fim dos Cards de Produtos -->
+        </div>
+      </div>
+    </section>
   </main>
 
   <!-- Footer -->
@@ -128,11 +391,11 @@
           <h5 class="text-info fw-bold mb-4">Newsletter Nexus Dev Shop</h5>
           <p class="small">Receba as novidades de hardware diretamente no seu e-mail!</p>
           <div class="input-group">
-            <input
-              type="email"
-              name="email"
-              id="email"
-              class="form-control bg-dark border-secondary text-white news-placeholder"
+            <input 
+              type="email" 
+              name="email" 
+              id="email" 
+              class="form-control bg-dark border-secondary text-white news-placeholder" 
               placeholder="Digite seu e-mail">
             <button class="btn btn-outline-info text-white fw-medium px-4">Assinar</button>
           </div>
@@ -170,15 +433,33 @@
       </div>
       <hr class="border-secondary my-5 opacity-25">
       <p class="text-center small mb-0">
-        &copy; 2026 Nexus Dev Shop. Todos os direitos reservados. Desenvolvido por
-        <a href="https://github.com/Wanderson-A-Timoteo" target="_blank" class="text-info text-decoration-none">Wanderson Timóteo</a>.
+        &copy; 2026 Nexus Dev Shop. Todos os direitos reservados. Desenvolvido por 
+        <a href="https://github.com/enzopeixotosenc99-jpg" target="_blank" class="text-info text-decoration-none">PEIXOTO</a>.
       </p>
     </div>
   </footer>
- 
+
+  <!-- Modal -->
+  <div class="modal fade" id="modalProd" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered text-white text-center">
+      <div class="modal-content bg-dark border border-secondary shadow-lg p-5">
+        <i class="bi bi-cart-check-fill text-info display-1"></i>
+        <h3 class="fw-bold mt-4">Interesse Registrado!</h3>
+        <p class="text-secondary">
+          Um especialista técnico entrará em contato para configurar seu novo hardware.
+        </p>
+        <button 
+          class="btn btn-outline-info text-white fw-medium mt-3 rounded px-5 py-2 shadow-sm"
+          data-bs-dismiss="modal">
+          Fechar
+        </button>
+      </div>
+    </div>
+  </div>
+  
 
   <!-- Bootstrap JS -->
-  <script
+  <script 
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous">
